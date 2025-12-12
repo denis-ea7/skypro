@@ -4,7 +4,7 @@ set -e
 
 SERVER="109.61.108.37"
 USER="denis"
-PASSWORD="wss81lv9"
+PASSWORD="wss34343v9"
 PORT="3009"
 REMOTE_DIR="/home/denis/skypro"
 
