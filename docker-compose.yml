@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: skypro-expenses
+    ports:
+      - "3009:80"
+    restart: unless-stopped
+    networks:
+      - skypro-network
+
+networks:
+  skypro-network:
+    driver: bridge
